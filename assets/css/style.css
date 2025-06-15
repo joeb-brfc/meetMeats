@@ -1,10 +1,19 @@
+/* Google Fonts: Playfair Display & Lato     */
+/* Playfair Display: Elegant serif for titles */
+/* Lato: Clean sans-serif for body text      */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: "lato", sans-serif;
+    background-color: #F5F5DC; /* Beige */;
+    
+}
+
 h1 {
+    font-family: "Playfair Display", cursive;
     color: blue;
     font-size: 2em;
     text-align: center;
-}
-
-body {
-    background-color: #F5F5DC; /* Beige */;
-    
 }
