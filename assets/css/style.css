@@ -3,17 +3,31 @@
 /* Lato: Clean sans-serif for body text      */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;700&display=swap');
 
+/*CSS variables */
+:root {
+   
+   --primary-font: "Playfair Display", cursive; /* Elegant serif for titles */
+    --secondary-font: "Lato", sans-serif; /* Clean sans-serif for body text */
+    --primary-color: #C0392B; /* Rich Tomato Red */
+    --secondary-color: #2C3E50	; /* Charcoal Black */
+    --highlight-color: #E67E22; /* Great for hover effects, warning badges, calorie labels */	
+    --highlight-color-light: #27AE60;	/*	Ideal for “healthy”, “alt meat”, and success-style alerts */
+}
 
-
+/* Global Styles */
 body {
-    font-family: "lato", sans-serif;
-    background-color: #F5F5DC; /* Beige */;
+    font-family: var(--secondary-font);
+ 
     
 }
 
-h1 {
-    font-family: "Playfair Display", cursive;
-    color: blue;
-    font-size: 2em;
-    text-align: center;
+h1, 
+h2, 
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color-light);
 }
