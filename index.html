@@ -30,210 +30,293 @@
         <!--Navigation-->
         <div>Navigation</div>
 
-        <!--Header with carousel-->
+        <!--Header with carousel from bootstrap with adaptations-->
         <header class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12 col-xl-6">
-                    Meet Meats intro text
-                    <!-- Carousel or header content goes here -->
+                    <h1 class="display-5 fw-bold">Welcome to Meet Meats</h1>
+                    <p class="lead">
+                        Explore the finest mince beef recipes curated by chefs
+                        and loved by home cooks. From hearty classics to fresh
+                        new favourites — discover, cook, and share your way.
+                    </p>
+                    <p>Join our culinary community and take your meals to the
+                        next level, one flavour-packed recipe at a time.</p>
                 </div>
                 <div class="col-12 col-xl-6">
-                    carousel
-                    <!-- Additional header content goes here -->
+                    <div id="headerCarousel" class="carousel slide"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner rounded shadow">
+
+                            <div class="carousel-item active">
+                                <img src="assets/images/burritos.webp"
+                                    class="d-block w-100"
+                                    alt="Spicy beef burrito with rice and salsa">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/images/chilli-con-carne.webp"
+                                    class="d-block w-100"
+                                    alt="Bowl of chilli con carne with red kidney beans">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="assets/images/cottage-pie.webp"
+                                    class="d-block w-100"
+                                    alt="Classic cottage pie with golden mash topping">
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#headerCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#headerCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <!--bootstrap Stacked Cards with Breakpoint-Based Columns and modified accordingly-->
-        <main>
-            <section class="container my-5">
-                <h2 class="mb-4 text-center">Our Favourite Mince Beef Recipes</h2>
+            </header>
+            <!--bootstrap Stacked Cards with Breakpoint-Based Columns and modified accordingly-->
+            <main>
+                <section class="container my-5">
+                    <h2 class="mb-4 text-center">Our Favourite Mince Beef
+                        Recipes</h2>
 
-                <div class="row g-4">
-                    <!-- Recipe 1 -->
-                    <div class="col-12 col-md-6 col-lg-12">
-                        <div class="card h-100 shadow-sm">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img
-                                        src="https://via.placeholder.com/600x400?text=Recipe+1"
-                                        class="img-fluid rounded-start"
-                                        alt="Recipe image 1">
+                    <div class="row g-4">
+                        <!-- Recipe 1 Burrito  -->
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="card h-100 shadow-sm">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-4">
+                                        <img
+                                            src="assets/images/burritos.webp"
+                                            class="img-fluid rounded-start"
+                                            alt="Beef burrito cut in half with rice and beans">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Spicy Beef
+                                                Burrito 1</h5>
+                                            <p><strong>Prep:</strong> 20 mins |
+                                                <strong>Cook:</strong> 15 mins |
+                                                <strong>Calories:</strong> 620
+                                                kcal |
+                                                <strong>Protein:</strong>
+                                                34g</p>
+                                            <p><strong>Ingredients:</strong>
+                                                Mince beef, black beans, rice,
+                                                red pepper, onions, tortillas,
+                                                salsa</p>
+                                            <p class="text-muted">A hearty
+                                                burrito loaded with seasoned
+                                                beef, beans, and spiced rice —
+                                                perfect for a satisfying lunch
+                                                or dinner.</p>
+                                            <h6>Method:</h6>
+                                            <ol class="small">
+                                                <li>Heat oil in a pan and brown
+                                                    the mince beef.</li>
+                                                <li>Add diced onions and red
+                                                    pepper, cook until
+                                                    soft.</li>
+                                                <li>Stir in cooked rice and
+                                                    black beans. Season and mix
+                                                    well.</li>
+                                                <li>Warm tortillas, fill with
+                                                    mixture, and roll
+                                                    tightly.</li>
+                                            </ol>
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Recipe Title
-                                            1</h5>
-                                        <p><strong>Prep:</strong> XX mins |
-                                            <strong>Cook:</strong> XX mins |
-                                            <strong>Calories:</strong> XXX |
-                                            <strong>Protein:</strong> XXg</p>
-                                        <p class="text-muted">Brief description
-                                            of the recipe goes here. Simple
-                                            intro to the dish and its
-                                            highlights.</p>
+                            </div>
+                        </div>
+
+                        <!-- Recipe 2 -->
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="card h-100 shadow-sm">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-4">
+                                        <img
+                                            src="assets/images/cottage-pie.webp"
+                                            alt="Cottage pie with mashed potato topping in a serving dish">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Classic Cottage Pie</h5>
+                                            <p><strong>Prep:</strong> 25 mins |
+                                                <strong>Cook:</strong> 30 mins |
+                                                <strong>Calories:</strong> 560kcal |
+                                                <strong>Protein:</strong>
+                                                32g</p>
+                                                       <p><strong>Ingredients:</strong> Mince beef, carrots, peas, onions, mashed potatoes, beef stock</p>
+              <p class="text-muted">A British classic — rich beef base topped with creamy mashed potato, baked to golden perfection.</p>
+              <h6>Method:</h6>
+              <ol class="small">
+                <li>Fry mince beef until browned. Add diced onions, carrots, and peas.</li>
+                <li>Pour in beef stock and simmer until vegetables are tender.</li>
+                <li>Spoon into a baking dish and top with mashed potatoes.</li>
+                <li>Bake at 180°C until golden and bubbling (about 20 minutes).</li>
+              </ol>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recipe 3 -->
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="card h-100 shadow-sm">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-4">
+                                        <img
+                                            src="assets/images/chilli-con-carne.webp"
+                                            class="img-fluid rounded-start"
+                                            alt="Bowl of chilli con carne with red kidney beans and peppers">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Chilli Con Carne</h5>
+                                            <p><strong>Prep:</strong> 15 mins |
+                                                <strong>Cook:</strong> 45 mins |
+                                                <strong>Calories:</strong> 480kcal |
+                                                <strong>Protein:</strong>
+                                                36g</p>
+                                                          <p><strong>Ingredients:</strong> Mince beef, kidney beans, bell peppers, onions, tomato paste, chilli powder</p>
+              <p class="text-muted">A fiery favourite made with rich mince beef, kidney beans, and bold spices — ideal served with rice or nachos.</p>
+              <h6>Method:</h6>
+              <ol class="small">
+                <li>Brown mince beef in a deep pan.</li>
+                <li>Add chopped onions and peppers. Cook until soft.</li>
+                <li>Mix in tomato paste, kidney beans, and chilli powder.</li>
+                <li>Simmer on low heat for 30–40 minutes. Stir occasionally.</li>
+              </ol>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recipe 4 -->
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div class="card h-100 shadow-sm">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-4">
+                                        <img
+                                            src="assets/images/spag-bol.webp"
+                                            class="img-fluid rounded-start"
+                                           alt="Spaghetti bolognese topped with basil served in a white bowl">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Spaghetti Bolognese</h5>
+                                            <p><strong>Prep:</strong> 10 mins |
+                                                <strong>Cook:</strong> 30 mins |
+                                                <strong>Calories:</strong> 540kcal |
+                                                <strong>Protein:</strong>
+                                                30g</p>
+                                                       <p><strong>Ingredients:</strong> Mince beef, onions, garlic, carrots, chopped tomatoes, spaghetti</p>
+              <p class="text-muted">An Italian-inspired classic — tender beef ragu simmered with herbs and tomatoes, served over spaghetti.</p>
+              <h6>Method:</h6>
+              <ol class="small">
+                <li>Sauté onions, garlic, and carrots until soft.</li>
+                <li>Add beef and cook until browned.</li>
+                <li>Stir in chopped tomatoes, season, and simmer for 20 mins.</li>
+                <li>Cook spaghetti separately and serve with the sauce.</li>
+              </ol>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+            </main>
 
-                    <!-- Recipe 2 -->
-                    <div class="col-12 col-md-6 col-lg-12">
-                        <div class="card h-100 shadow-sm">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img
-                                        src="https://via.placeholder.com/600x400?text=Recipe+2"
-                                        class="img-fluid rounded-start"
-                                        alt="Recipe image 2">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Recipe Title
-                                            2</h5>
-                                        <p><strong>Prep:</strong> XX mins |
-                                            <strong>Cook:</strong> XX mins |
-                                            <strong>Calories:</strong> XXX |
-                                            <strong>Protein:</strong> XXg</p>
-                                        <p class="text-muted">Brief description
-                                            of the recipe goes here. Simple
-                                            intro to the dish and its
-                                            highlights.</p>
-                                    </div>
-                                </div>
+            <footer>
+                <section class="container my-5">
+                    <h2 class="mb-4 text-center">Popular Mince Beef Recipes</h2>
+                    <!-- [Recipe Cards – skipped here for brevity, already included above] -->
+                </section>
+
+                <section class="container my-5">
+                    <div class="row mb-5 align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <img src="assets/images/home-cooking.jpg"
+                                class="footer-image img-fluid rounded shadow"
+                                alt="Users browsing recipes">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>For Food Lovers <i
+                                    class="fa-solid fa-utensils"></i></h3>
+                            <p class="lead">Sign up to explore exclusive
+                                recipes, save your favourites, and rate
+                                dishes to guide others.</p>
+                            <p>By joining Meet Meats as a customer, you’ll
+                                gain access to nutritional details, cooking
+                                tips, and meal inspiration tailored to your
+                                preferences.</p>
+                            <div
+                                class="d-flex flex-column flex-sm-row gap-3 mt-3">
+                                <a href="#" class="btn btn-success">Sign Up
+                                    as a User</a>
+                                <a href="#"
+                                    class="btn btn-outline-success">Sign In
+                                    as a User</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Recipe 3 -->
-                    <div class="col-12 col-md-6 col-lg-12">
-                        <div class="card h-100 shadow-sm">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img
-                                        src="https://via.placeholder.com/600x400?text=Recipe+3"
-                                        class="img-fluid rounded-start"
-                                        alt="Recipe image 3">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Recipe Title
-                                            3</h5>
-                                        <p><strong>Prep:</strong> XX mins |
-                                            <strong>Cook:</strong> XX mins |
-                                            <strong>Calories:</strong> XXX |
-                                            <strong>Protein:</strong> XXg</p>
-                                        <p class="text-muted">Brief description
-                                            of the recipe goes here. Simple
-                                            intro to the dish and its
-                                            highlights.</p>
-                                    </div>
-                                </div>
+                    <hr class="my-5">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
+                            <img src="assets/images/chef.jpg"
+                                class="footer-image img-fluid rounded shadow"
+                                alt="Chef preparing food">
+                        </div>
+                        <div class="col-lg-6 order-lg-1">
+                            <h3>For Chefs <i
+                                    class="fa-solid fa-kitchen-set"></i></h3>
+                            <p class="lead">Grow your culinary brand by
+                                submitting your own recipes and reaching
+                                food lovers around the world.</p>
+                            <p>Meet Meats gives chefs the ability to share
+                                recipes, gain followers, receive feedback,
+                                and highlight nutritional details for
+                                health-conscious users.</p>
+                            <div
+                                class="d-flex flex-column flex-sm-row gap-3 mt-3">
+                                <a href="#" class="btn btn-success">Sign Up
+                                    as a Chef</a>
+                                <a href="#"
+                                    class="btn btn-outline-success">Sign In
+                                    as a Chef</a>
                             </div>
                         </div>
                     </div>
+                </section>
 
-                    <!-- Recipe 4 -->
-                    <div class="col-12 col-md-6 col-lg-12">
-                        <div class="card h-100 shadow-sm">
-                            <div class="row g-0 align-items-center">
-                                <div class="col-md-4">
-                                    <img
-                                        src="https://via.placeholder.com/600x400?text=Recipe+4"
-                                        class="img-fluid rounded-start"
-                                        alt="Recipe image 4">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Recipe Title
-                                            4</h5>
-                                        <p><strong>Prep:</strong> XX mins |
-                                            <strong>Cook:</strong> XX mins |
-                                            <strong>Calories:</strong> XXX |
-                                            <strong>Protein:</strong> XXg</p>
-                                        <p class="text-muted">Brief description
-                                            of the recipe goes here. Simple
-                                            intro to the dish and its
-                                            highlights.</p>
-                                    </div>
-                                </div>
-                            </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </main>
-        
-                <footer>
-                    <section class="container my-5">
-                        <h2 class="mb-4 text-center">Popular Mince Beef Recipes</h2>
-                        <!-- [Recipe Cards – skipped here for brevity, already included above] -->
-                    </section>
-
-                    <section class="container my-5">
-                        <div class="row mb-5 align-items-center">
-                            <div class="col-lg-6 mb-4 mb-lg-0">
-                                <img src="assets/images/home-cooking.jpg"
-                                    class="footer-image img-fluid rounded shadow"
-                                    alt="Users browsing recipes">
-                            </div>
-                            <div class="col-lg-6">
-                                <h3>For Food Lovers <i class="fa-solid fa-utensils"></i></h3>
-                                <p class="lead">Sign up to explore exclusive
-                                    recipes, save your favourites, and rate
-                                    dishes to guide others.</p>
-                                <p>By joining Meet Meats as a customer, you’ll
-                                    gain access to nutritional details, cooking
-                                    tips, and meal inspiration tailored to your
-                                    preferences.</p>
-                                <div
-                                    class="d-flex flex-column flex-sm-row gap-3 mt-3">
-                                    <a href="#" class="btn btn-success">Sign Up
-                                        as a User</a>
-                                    <a href="#"
-                                        class="btn btn-outline-success">Sign In
-                                        as a User</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <hr class="my-5">
-
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
-                                <img src="assets/images/chef.jpg"
-                                    class="footer-image img-fluid rounded shadow"
-                                    alt="Chef preparing food">
-                            </div>
-                            <div class="col-lg-6 order-lg-1">
-                                <h3>For Chefs <i class="fa-solid fa-kitchen-set"></i></h3>
-                                <p class="lead">Grow your culinary brand by
-                                    submitting your own recipes and reaching
-                                    food lovers around the world.</p>
-                                <p>Meet Meats gives chefs the ability to share
-                                    recipes, gain followers, receive feedback,
-                                    and highlight nutritional details for
-                                    health-conscious users.</p>
-                                <div
-                                    class="d-flex flex-column flex-sm-row gap-3 mt-3">
-                                    <a href="#" class="btn btn-success">Sign Up
-                                        as a Chef</a>
-                                    <a href="#"
-                                        class="btn btn-outline-success">Sign In
-                                        as a Chef</a>
-                                </div>
-                            </div>
-                        </div>
-                            </section>
-        
-                </footer>
-                <!-- Font Awesome -->
-                <script src="https://kit.fontawesome.com/d1eb124475.js"
-                    crossorigin="anonymous"></script>
-                <!-- Bootstrap JS -->
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-                    crossorigin="anonymous"></script>
-            </body>
-        </html>
+            </footer>
+            <!-- Font Awesome -->
+            <script src="https://kit.fontawesome.com/d1eb124475.js"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>
