@@ -26,9 +26,41 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
-    <body class ="d-flex flex-column min-vh-100">
+    <!--classes on body set to work with mt-auto on footer to ensure it always stays at bottom of page-->
+    <body class="d-flex flex-column min-vh-100">
         <!--Navigation-->
-        <div>Navigation</div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Navbar</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recipies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
 
         <!--Header with carousel from bootstrap with adaptations-->
         <header class="container">
@@ -291,8 +323,9 @@
                     </div>
                 </section>
             </main>
-
-            <footer class= "mt-auto">
+            <!--Footer with two sections, one for users and one for chefs-->
+            <!-- mt-auto added to push footer to the bottom of the page -->
+            <footer class="mt-auto">
                 <section class="container my-5">
                     <h2 class="mb-4 text-center">Popular Mince Beef Recipes</h2>
                     <!-- [Recipe Cards – skipped here for brevity, already included above] -->
