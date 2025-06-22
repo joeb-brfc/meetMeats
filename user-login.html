@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description"
+            content="Meet Meats is a responsive recipe hub focused on mince beef dishes. Discover chef-curated recipes, explore nutritional info, rate your favourites, and find fresh cooking inspiration across all devices." />
+        <meta name="keywords"
+            content="meat, recipes, beef, mince beef, cooking, food" />
+        <title>Meet Meats</title>
+        <!-- Favicon created using AI-based image generation tools -->
+
+        <link rel="shortcut icon" href="assets/images/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="assets/images/favicon-16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="assets/images/favicon-32x32.png" />
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="assets/images/favicon-180x180.png" />
+        <!--Bootstrap CSS-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+            crossorigin="anonymous" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <!--classes on body set to work with mt-auto on footer to ensure it always stays at bottom of page-->
+    <body class="d-flex flex-column min-vh-100">
+        <!--Navigation-->
+        <nav id ="navbar" class="navbar navbar-expand-lg "data-bs-theme="light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="steak with title Meet Meats" class="logo"></a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recipies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+            <!--Footer with two sections, one for users and one for chefs-->
+            <!-- mt-auto added to push footer to the bottom of the page -->
+            <footer class="mt-auto">
+                <section class="container my-5">
+                    <h2 class="mb-4 text-center">Popular Mince Beef Recipes</h2>
+                    <!-- [Recipe Cards – skipped here for brevity, already included above] -->
+                </section>
+
+                <section class="container my-5">
+                    <div class="row mb-5 align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <img src="assets/images/home-cooking.jpg"
+                                class="footer-image img-fluid rounded shadow"
+                                alt="Users browsing recipes">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>For Food Lovers <i
+                                    class="fa-solid fa-utensils"></i></h3>
+                            <p class="lead">Sign up to explore exclusive
+                                recipes, save your favourites, and rate
+                                dishes to guide others.</p>
+                            <p>By joining Meet Meats as a customer, you’ll
+                                gain access to nutritional details, cooking
+                                tips, and meal inspiration tailored to your
+                                preferences.</p>
+                            <div
+                                class="d-flex flex-column flex-sm-row gap-3 mt-3">
+                                <a href="#" class="btn btn-success">Sign Up
+                                    as a User</a>
+                                <a href="#"
+                                    class="btn btn-outline-success">Sign In
+                                    as a User</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="my-5">
+
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0 order-lg-2">
+                            <img src="assets/images/chef.jpg"
+                                class="footer-image img-fluid rounded shadow"
+                                alt="Chef preparing food">
+                        </div>
+                        <div class="col-lg-6 order-lg-1">
+                            <h3>For Chefs <i
+                                    class="fa-solid fa-kitchen-set"></i></h3>
+                            <p class="lead">Grow your culinary brand by
+                                submitting your own recipes and reaching
+                                food lovers around the world.</p>
+                            <p>Meet Meats gives chefs the ability to share
+                                recipes, gain followers, receive feedback,
+                                and highlight nutritional details for
+                                health-conscious users.</p>
+                            <div
+                                class="d-flex flex-column flex-sm-row gap-3 mt-3">
+                                <a href="#" class="btn btn-success">Sign Up
+                                    as a Chef</a>
+                                <a href="#"
+                                    class="btn btn-outline-success">Sign In
+                                    as a Chef</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </footer>
+            <!-- Font Awesome -->
+            <script src="https://kit.fontawesome.com/d1eb124475.js"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                crossorigin="anonymous"></script>
+        </body>
+    </html>

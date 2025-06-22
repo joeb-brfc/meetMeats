@@ -15,10 +15,24 @@
 }
 
 /* Global Styles */
+.bg-custom {
+  background-color: var(--secondary-color); /* Dark charcoal background */
+  color: white; /* Light text for readability */
+}
+
 body {
     font-family: var(--secondary-font);
  
     
+}
+.card {
+  background-color: var(--secondary-color); /* Charcoal */
+  color: white; /* Ensure text is readable on dark background */
+  border: none;
+}
+
+.card .text-muted {
+  color: white !important;
 }
 
 h1, 
