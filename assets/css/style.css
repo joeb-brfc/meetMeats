@@ -35,7 +35,7 @@ h3 {
 #navbar {
     background-color: var(--highlight-color-light);
     padding: 1rem;
-    height: 100px;
+
 }  
 #navbar .logo {
     width: 90px;
