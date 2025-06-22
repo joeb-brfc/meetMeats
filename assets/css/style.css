@@ -55,16 +55,36 @@ h3 {
     width: 90px;
     height: 90px;
 } 
-/* grid visualisation CSS for testing */
 
-/* .container,
-.row {
-    border: 2px solid black;
+/* Custom Buttons */
+.btn-signup {
+  background-color: var(--highlight-color-light); /* Green */
+  color: white;
+  border: none;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray; */
+.btn-signup:hover {
+  background-color: #219150;
+}
+
+.btn-signin {
+  background-color: var(--primary-color); /* Tomato Red */
+  color: white;
+  border: none;
+}
+
+.btn-signin:hover {
+  background-color: #a93226;
+}
+
+/* Optional: Consistent button sizing */
+.btn-signin,
+.btn-signup {
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+}
 
 /*Footer Styles */
 /* } */
