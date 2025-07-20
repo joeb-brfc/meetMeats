@@ -134,11 +134,14 @@ The site is built for food lovers, home cooks, and professional chefs. It provid
 - 
 ## 🖼️ Wireframes
 
-### 🔹 Home Page (Desktop View)
-![Home Wireframe](assets/images/wireframe-home.png)
+### 🔹 Home Page 
+<img width="1024" height="1536" alt="wirefram for meetmeats" src="https://github.com/user-attachments/assets/4b162533-833c-4239-9ba3-5dc14baf3fcd" />
+
 
 ### 🔹 Chef Login & Recipe Submission
-![Chef Form Wireframe](assets/images/wireframe-chef-form.png)
+<img width="1024" height="1536" alt="meetmeats login" src="https://github.com/user-attachments/assets/674130ee-3d19-4039-b228-eeedcdc8869a" />
+
+
 
 ---
 
