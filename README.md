@@ -166,3 +166,62 @@ The site will be structured with the following pages:
 - Displays chef name, bio, recipe contributions, and optional links
 
 ---
+## 🔗 External Resources _(WIP)_
+<!-- Placeholder for external site links -->
+
+
+---
+
+## ✅ Testing _(WIP)_
+
+Testing will be conducted across multiple devices and browsers to verify:
+
+- Navigation functionality
+- Form validation (login, rating, recipe submission)
+- Local storage logic for reviews
+- Profile modal display and linking
+- Accessibility and screen-reader compatibility
+
+---
+
+## 📱 Responsiveness _(WIP)_
+
+Responsiveness will be evaluated using:
+
+- Chrome DevTools device simulation
+- Manual testing on mobile/tablet/desktop
+- Bootstrap grid and utility classes to support fluid layouts
+
+---
+
+## 🧪 Automated Testing _(WIP)_
+
+<!-- Placeholder for Lighthouse, Axe-core, or other tools -->
+
+---
+
+## 🧪 W3C Validation
+
+### HTML Validation _(WIP)_
+
+
+### CSS Validation _(WIP)_
+
+
+---
+
+## 📋 Test Summary Documentation _(WIP)_
+
+| Feature                             | Tested Device/Browser       | Status      |
+|-------------------------------------|-----------------------------|-------------|
+| Navigation links                    |                             |             |
+| Form validation (login & rating)    |                             |             |
+| Recipe display cards                |                             |             |
+| Profile modal / link                |                             |             |
+| LocalStorage for reviews            |                             |             |
+| Screen reader navigation            |                             |             |
+| Responsive layout on all pages      |                             |             |
+| HTML5 validity (W3C)                |                             |             |
+| CSS3 validity (W3C)                 |                             |             |
+
+---
